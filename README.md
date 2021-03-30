@@ -5,7 +5,7 @@
 
 Currently customized the following:
   - Removed the diskspace health component from `/actuator/health` endpoint
- 
+  - Make Datasource with custom settings `(Creds SA/SA with URL jdbc:h2:mem:testDB)` by default.
  ---
 Planning to do the following based on time availability:
 - [x] Make Datasource with specific settings without configuring any `spring.datasource.*` properties in application.yaml/properties.
