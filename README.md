@@ -11,4 +11,5 @@ Planning to do the following based on time availability:
 - [x] Make Datasource with specific settings without configuring any `spring.datasource.*` properties in application.yaml/properties.
 >   _Spring Application starts H2 DB with JDBC URL `jdbc:h2:mem:testDB` and username/password  both as `SA`._
 - [ ] Extending existing health check component with additional details
-- [ ] Adding new health components to HC endpoint
+- [x] Adding new health components to HC endpoint
+>   _Custom endpoint`actuator/customHealth` is implemented in project [custom-health-endpoint](https://github.com/SandeepLakka/custom-health-endpoint)_
